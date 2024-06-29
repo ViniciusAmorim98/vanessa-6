@@ -1,0 +1,216 @@
+@media screen and (max-width: 700px) {
+
+    /* Estilos que serão aplicados quando a largura da tela for até 700px */
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .faixa {
+        background: linear-gradient(to right, #c6985b, #e0bb8a);
+        color: #3f3f3f;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    header {
+        background: none;
+        height: auto;
+    }
+
+    .capa-mb img {
+        width: 100%;
+        display: block;
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    header .container p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    header .container a {
+        background: linear-gradient(to right, #2c710f, #61ce70);
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*erro*/
+
+    #erro {
+        padding: 20px 0;
+    }
+
+    #erro p {
+        text-align: center;
+    }
+
+    #ebook1 {
+        width: 100%;
+    }
+
+    #erro h2 {
+        text-align: center;
+    }
+
+    /*pra quem é*/
+    #pqe {
+        background-color: white;
+        color: black;
+        margin-top: -10px;
+    }
+
+    #pqe .container img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    /*receber*/
+    #receber {
+        background-color: white;
+        color: black;
+        margin-top: -5px;
+        padding: 40px 0;
+    }
+
+    .receber-img img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+    .flex-check {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+        margin: 10px 0 10px 0;
+
+    }
+
+    .flex-check i {
+        color: #c6985b;
+    }
+
+    /*bonos*/
+    #bonos {
+        padding: 40px 0;
+        background-image: url(img/back-bonos.png);
+        background-position: center;
+    }
+
+    #bonos .img-bonos {
+        width: 100%;
+    }
+
+    .check-bonos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .check-bonos i {
+        color: #c6985b;
+    }
+
+    /*depoimento*/
+
+    #depoimento {
+        padding: 50px 0;
+    }
+
+    #depoimento .container img {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    /*ancoragem*/
+    #ancoragem {
+        padding: 0;
+    }
+
+    #ancoragem .container a img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /*autoridade*/
+    #bio {
+        padding: 50px 0;
+    }
+
+    #bio h2 {
+        text-align: center;
+    }
+
+    #bio img {
+        margin: 25px 0 20px 0;
+        width: 100%;
+        border-radius: 15px;
+        border-bottom: solid #c6985b 4px;
+    }
+
+    .van-bio-pc {
+        display: none;
+    }
+
+
+
+    /*perguntas frequentes*/
+
+    #pf {
+        padding: 10px 0;
+    }
+
+    #pf h2 {
+        margin-bottom: 25px;
+    }
+
+    #pf .container h2 {
+        text-align: center;
+    }
+
+
+
+}

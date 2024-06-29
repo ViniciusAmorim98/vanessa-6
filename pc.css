@@ -1,0 +1,267 @@
+@media screen and (min-width: 701px) and (max-width: 2000px) {
+
+    /* Estilos para telas entre 768px e 991px de largura */
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        /* border: solid 2px green; */
+
+    }
+
+    .flex {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+
+    .faixa {
+        background: linear-gradient(to right, #c6985b, #e0bb8a);
+        color: #3f3f3f;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    header {
+        background-image: url(img/Capa-pc.png);
+        background-size: 100%;
+        height: 600px;
+    }
+
+    .header-pc {
+        width: 100%;
+        /* border   : solid red 5px; */
+        width: 50%;
+        padding-top: 150px;
+    }
+
+    .capa-mb img {
+        display: none;
+    }
+
+    .capa-pc img {
+        width: 100%;
+
+    }
+
+    header .container a {
+        background: linear-gradient(to right, #2c710f, #61ce70);
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #erro {
+        text-align: center;
+    }
+
+    /*erro*/
+
+
+    /*pqe*/
+    #pqe {
+        background-color: white;
+        color: black;
+        margin-top: -15px;
+        text-align: center;
+    }
+
+    #pqe p {
+        margin-bottom: 50px;
+    }
+
+    .flex-pqe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pqe-img {
+        width: 50%;
+    }
+
+    .pqe-img img {
+        width: 80%;
+    }
+
+    .pqe-txt {
+        width: 50%;
+        text-align: left;
+    }
+
+    /*receber*/
+
+    #receber {
+        background-color: white;
+        color: black;
+        margin-top: -5px;
+        padding: 40px 0;
+    }
+
+    .flex-receber {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .receber-txt {
+        width: 50%;
+    }
+
+    .receber-img {
+        width: 50%;
+    }
+
+    .receber-img img {
+        width: 80%;
+    }
+
+
+    .flex-check {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+        margin: 10px 0 10px 0;
+
+    }
+
+    .flex-check i {
+        color: #c6985b;
+    }
+
+    /*bonos*/
+
+    #bonos {
+        padding: 40px 0;
+        background-image: url(img/back-bonos.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .flex-bonos {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .flex-bonos img {
+        width: 50%;
+    }
+
+
+
+    .check-bonos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .check-bonos i {
+        color: #c6985b;
+    }
+
+    /*depoimentos*/
+
+    #depoimento {
+        padding: 50px 0;
+    }
+
+    .flex-dp {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .flex-dp img {
+        width: 30%;
+    }
+
+    /*ancoragem*/
+    #ancorage {
+        padding: 50px 0;
+    }
+
+    #ancoragem .container a img {
+        width: 50%;
+        border: solid #c6985b 2px;
+    }
+
+    .flex-anco {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*bio*/
+
+    #bio {
+        padding: 50px 0;
+    }
+
+    #bio h2 {
+        margin-bottom: 50px;
+    }
+
+    .van-bio-mb {
+        display: none;
+    }
+
+    .flex-bio {
+        display: flex;
+        flex-direction: row-reverse;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .van-bio-pc {
+        width: 40%;
+    }
+
+    .txt-bio {
+        width: 50%;
+    }
+
+    .van-bio-pc img {
+        width: 100%;
+        border-radius: 15px;
+        border-bottom: solid #c6985b 4px;
+    }
+
+    /*perguntas*/
+
+    #pf h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #pf {
+        margin-bottom: 50px;
+    }
+
+}
